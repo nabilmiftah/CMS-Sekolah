@@ -1,0 +1,39 @@
+# Dependencies
+# Abaikan semua folder node_modules di manapun lokasinya
+node_modules/
+# Folder hasil instalasi yang tidak perlu di commit
+jspm_packages/
+
+# Logs
+# Abaikan semua file log
+npm-debug.log
+yarn-error.log
+*.log
+
+# Environment files
+# INI SANGAT PENTING: JANGAN PERNAH UNGGAH FILE BERISI KUNCI RAHASIA!
+# Ini akan mengabaikan file .env (yang berisi kunci rahasia)
+.env
+# Mengabaikan file yang dihasilkan dari dotenv-cli
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Build/Dist/Compiled files
+# Abaikan folder build/dist jika Anda melakukan build,
+# terutama untuk frontend React Anda
+dist/
+build/
+coverage/
+
+# Uploaded Files (Penting, karena Anda punya folder 'uploads')
+# Abaikan konten folder uploads di backend
+backend/uploads/
+# Abaikan folder uploads di root atau tempat lain
+uploads/
+
+# OS generated files (macOS dan Windows)
+.DS_Store
+Thumbs.db
